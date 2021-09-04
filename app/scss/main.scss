@@ -3,6 +3,11 @@
 @import "reset"; //сборс стилей
 
 //подключаем БЭМ блоки
+@import "blocks/body";
+@import "blocks/container";
 @import "blocks/header";
 @import "blocks/logo";
-@import "blocks/list";
+@import "blocks/nav";
+@import "blocks/info";
+@import "blocks/btn";
+

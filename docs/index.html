@@ -6,9 +6,17 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="css/main.css"> 
+<!-- <svg hidden>
+    <symbol id="arrow-left" viewBox="0 0 25 9">
+        <path d="M25 5H1M1 5L3.5 1M1 5L4 8.5" stroke="white"/>
+    </symbol>
+</svg> -->
 </head>
-<body>
+<body class="body">
    <header class="header">
        <div class="header__top">
            <div class="header__container container">
@@ -24,50 +32,40 @@
                         <li class="nav__item"><a href="#" class="nav__link">ЩЕБЕНЬ</a></li>
                     </ul>
                 </nav>
-                <div class="header__tel">
-                    <img class="header__tel-icon" src="img/tel.svg" alt="telephone">
-                    <a class="header__tel-number" href="tel:+79276784514"> +7 (927) 678-45-14</a>
+                <div class="header__info">
+                    <img class="header__info-icon" src="img/tel.svg" alt="phone">
+                    <a class="header__info-text" href="tel:+79276784514"> +7 (927) 678-45-14</a>
                 </div>
-                <div class="header__map">
-                    <img class="header__map-icon" src="img/map.svg" alt="map">
-                    <a class="header__map-address" href="#"> г. Казань, Складская 20</a>
+                <div class="header__info">
+                    <img class="header__info-icon" src="img/map.svg" alt="map">
+                    <a class="header__info-text" href="#">г. Казань, Складская 20</a>
                 </div>
+                
            </div>
        </div>
-   </header>
-   <div class="info">
-        <div class="info__container">
-            <div class="info__inner">
-                <div class="info__list">
-                    <h1 class="info__title">
-                        ВЫГРУЗКА ВАГОНОВ, АРЕНДА ЗЕМЛИ, КРFНОВЫХ ПЛОЩАДОК, ОТВЕСТВЕННОЕ ХРАНЕНИЕ
-                    </h1>
-                    <button class="info_bth"> ЗАКАЗАТЬ</button>
-                </div>
-                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/carusel.jpg" class="d-block w-100" alt="foto">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/kot.jpg" class="d-block w-100" alt="foto">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/kots.jpg" class="d-block w-100" alt="foto">
-                        </div>
+        <div class="header__bottom info">
+            <div class="info__container container">
+                <div class="info__inner">
+                    <div class="info__inner-left info__list">
+                        <h2 class="info__title">
+                            ВЫГРУЗКА ВАГОНОВ, АРЕНДА ЗЕМЛИ, КРFНОВЫХ ПЛОЩАДОК, ОТВЕСТВЕННОЕ ХРАНЕНИЕ
+                        </h2>
+                        <button class="info__bth btn"> ЗАКАЗАТЬ</button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Предыдущий</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Следующий</span>
-                    </button>
+                    <img class="info__inner-pic" src="img/carusel.jpg" alt="balba">
                 </div>
+                <div class="info__switch">
+                    <button type="button" class="info__arrow"> 
+                        <img src="img/arrow-left.svg" alt="arrow-left" class="info__arrow-button info__arrow-button--next">
+                    </button>
+                    <div class="info__list"> 1  /  3</div>
+                    <button type="button" class="info__arrow"> 
+                        <img src="img/arrow-right.svg" alt="arrow-right" class="info__arrow-button">
+                    </button>
+            </div>
             </div>
         </div>
-   </div>
+    </header>
 </body>
 
 </html>

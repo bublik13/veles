@@ -1,93 +1,36 @@
-.header{
-    background-color:  #161616;
-    padding: 30px;
-    &__container{
-        margin: 0 auto;
-        max-width: 1440px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        
-    }
-    &__nav{
-        list-style-type: none;
-    }
+.header {
+  background-color: #161616;
+  position: relative;
 }
-.header__logo{
-    margin-right: auto;
+.header__top{
+    padding: 30px 0 30px 0;
+    margin-bottom: 140px;
 }
-.nav__list{
-    display: flex;
-    list-style-type: none;
+.header__container {
+  display: flex;
+  align-items: center;
 }
-.nav__link{
-    font-family: Raleway;
-    padding: 30px;
-    text-decoration: none;
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: 0.1em;
-    color: #FFFFFF;
+.header__nav {
+  list-style-type: none;
+  flex-grow: 1;
 }
-.header__tel{
-    display: flex;
-    margin-left: auto;
+.header__logo {
+  margin-right: 64px;
+  flex-shrink: 0;
 }
-.header__tel-icon{
-    display: block;
-    margin-right: 10px;
-}
-.header__tel-number{
-    font-family: Raleway;
-    font-size: 13px;
-    line-height: 15px;
-    color: #FFFFFF;
-}
-.header__map{
-    display: flex;
-    margin-left: auto;
-}
-.header__map-icon{
-    display: block;
-    margin-right: 10px;
-}
-.header__map-address{
-    font-family: Raleway;
-    font-size: 10px;
-    line-height: 140%;
-    color: #FFFFFF;
-}
-.info{
-    background-color:  #161616;
-}
-.info__container{
-    margin: 0 auto;
-    max-width: 1440px;
-}
-.info__inner{
-    display: flex;
-    padding: 140px 0 39px 0;
-}
-.info__text{
 
+.header__info {
+  display: flex;
+  align-items: center;
+ margin-left: 28px;
 }
-.info__title{
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 32px;
-    color: #FFFFFF;
+.header__info-icon {
+    flex-shrink: 0;
+  margin-right: 10px;
 }
-.info_bth{
-    margin-top: 51px;
-    background-color: #FFE500;
-    padding: 19px 56px 19px 50px;
-    font-family: Raleway;
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 700;
-    text-align: center;
-    letter-spacing: 0.13em;
-    text-transform: uppercase;
-    color: #161616;
+.header__info-text {
+  font-size: 13px;
+  line-height: 24px;
+  color: #ffffff;
 }
+
