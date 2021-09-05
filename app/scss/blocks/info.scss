@@ -25,21 +25,32 @@
 }
 .info__switch {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  justify-content: flex-end;
   width: 50%;
-  padding: 69px 47px 39px 409px;
+  padding-right: 35px;
 }
 .info__arrow {
   background-color: #161616;
   border: none;
   cursor: pointer;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
 }
-.info__arrow-button--next {
+.info__arrow-button--disabled {
   opacity: 0.2;
 }
 .info__list {
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
+}
+@media (max-width: 768px) {
+  .info__inner-pic--column {
+    position: static;
+    width: 100%;
+  }
 }
