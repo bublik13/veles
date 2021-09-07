@@ -1,60 +1,88 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
+  <head>
     <!-- подключаем meta, title, css -->
     @@include('page/head-data.html')
-</head>
-<body class="body">
-   <header class="header header--column">
-       <div class="header__top">
-           <div class="header__container container">
-                <a href="#" class="logo header__logo">
-                    <img class="logo__img" src="img/logo.svg" alt="logo">
-                </a>
-                <nav class="nav header__nav">
-                    <ul class="nav__list nav__list--column">
-                        <li class="nav__item"><a href="#" class="nav__link">ЗЕМЛЯ</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">КРАНОВЫЕ ПЛОЩАДКИ</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">ВЫГРУЗКА ВАГОНОВ</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">ФАСОВКА</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">ЩЕБЕНЬ</a></li>
-                    </ul>
-                </nav>
-                <div class="header__info">
-                    <img class="header__info-icon" src="img/tel.svg" alt="phone">
-                    <a class="header__info-text" href="tel:+79276784514"> +7 (927) 678-45-14</a>
-                </div>
-                <div class="header__info">
-                    <img class="header__info-icon" src="img/map.svg" alt="map">
-                    <a class="header__info-text" href="#">г. Казань, Складская 20</a>
-                </div>
-                
-           </div>
-       </div>
-        <div class="header__bottom info">
-            <div class="info__container container">
-                <div class="info__inner">
-                    <div class="info__inner-left info__list">
-                        <h2 class="info__title">
-                            ВЫГРУЗКА ВАГОНОВ, АРЕНДА ЗЕМЛИ, КРFНОВЫХ ПЛОЩАДОК, ОТВЕСТВЕННОЕ ХРАНЕНИЕ
-                        </h2>
-                        <button class="info__bth btn"> ЗАКАЗАТЬ</button>
-                    </div>
-                    <img class="info__inner-pic info__inner-pic--column" src="img/carusel.jpg" alt="balba">
-                </div>
-                <div class="info__switch">
-                    <button type="button" class="info__arrow"> 
-                        <img src="img/arrow-left.svg" alt="arrow-left" class="info__arrow-button info__arrow-button--disabled">
-                    </button>
-                    <div class="info__list"> 1  /  3</div>
-                    <button type="button" class="info__arrow"> 
-                        <img src="img/arrow-right.svg" alt="arrow-right" class="info__arrow-button">
-                    </button>
-            </div>
-            </div>
-        </div>
-    </header>
-</body>
+  </head>
+  <body class="body">
+    <header class="header header--column header--nav-open">
+      <div class="header__top">
+        <div class="header__container container">
+          <a href="#" class="logo header__logo">
+            <img class="logo__img" src="img/logo.svg" alt="logo" />
+          </a>
 
+          <nav class="nav header__nav">
+            <ul class="nav__list nav__list--column">
+              <li class="nav__item">
+                <a href="#" class="nav__link">ЗЕМЛЯ</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">КРАНОВЫЕ ПЛОЩАДКИ</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">ВЫГРУЗКА ВАГОНОВ</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">ФАСОВКА</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">ЩЕБЕНЬ</a>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="burger header__burger burger--active">
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+              <span class="burger__line"></span>
+          </button>
+          <div class="header__info">
+            <img class="header__info-icon" src="img/tel.svg" alt="phone" />
+            <a class="header__info-text" href="tel:+79276784514">
+              +7 (927) 678-45-14</a
+            >
+          </div>
+          <div class="header__info">
+            <img class="header__info-icon" src="img/map.svg" alt="map" />
+            <a class="header__info-text" href="#">г. Казань, Складская 20</a>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom info">
+        <div class="info__container container">
+          <div class="info__inner">
+            <div class="info__inner-left info__list">
+              <h2 class="info__title">
+                ВЫГРУЗКА ВАГОНОВ, АРЕНДА ЗЕМЛИ, КРFНОВЫХ ПЛОЩАДОК, ОТВЕСТВЕННОЕ
+                ХРАНЕНИЕ
+              </h2>
+              <button class="info__bth btn">ЗАКАЗАТЬ</button>
+            </div>
+            <img
+              class="info__inner-pic"
+              src="img/carusel.jpg"
+              alt="balba"
+            />
+          </div>
+          <div class="info__switch">
+            <button type="button" class="info__arrow">
+              <img
+                src="img/arrow-left.svg"
+                alt="arrow-left"
+                class="info__arrow-button info__arrow-button--disabled"
+              />
+            </button>
+            <div class="info__list">1 / 3</div>
+            <button type="button" class="info__arrow">
+              <img
+                src="img/arrow-right.svg"
+                alt="arrow-right"
+                class="info__arrow-button"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
