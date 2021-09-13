@@ -47,6 +47,10 @@
   padding: 0 20px;
 }
 @media (max-width: 768px) {
+  .info__inner {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
   .info__inner-pic{
     position: absolute;
     width: 100%;
@@ -55,6 +59,19 @@
     bottom: 0;
     left: 0;
     z-index: -2;
+  }
+  .info__inner-left{
+    padding: 0 70px 0 0;
+  }
+  .info__title{
+    font-size: 18px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  } 
+  .info__switch{
+    width: 100%;
+    padding: 0;
   }
   
 }

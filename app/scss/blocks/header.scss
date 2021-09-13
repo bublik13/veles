@@ -85,6 +85,9 @@
   position: relative;
 }
 @media (max-width: 1200px) {
+  .header{
+    padding-bottom: 200px;
+  }
   .header:before {
     content: "";
     position: absolute;
@@ -95,6 +98,9 @@
     background-color: #000;
     z-index: -1;
     opacity: 0.3;
+  }
+  .header__top {
+    margin-bottom: 102px;
   }
   .header__nav {
     position: fixed;
