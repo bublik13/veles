@@ -31,19 +31,23 @@
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  box-shadow: 0 0 20px 15px rgba(221, 221, 221, 1);
+  position: relative;
 }
 .useful__item:hover .useful__subtext {
   font-weight: 800;
 }
-.useful__top {
-  position: relative;
-}
+// .useful__top {
+//   display: inline-flex;
+// }
 .useful__top:hover .useful__map-text {
   position: absolute;
   top: 0;
   left: 54px;
   display: block;
   padding: 17px 14px 18px 5px;
+  transform: translateX(0);
+  opacity: 1;
 }
 .useful__subtext {
   font-size: 18px;
@@ -72,6 +76,9 @@
   padding: 9px;
   display: block;
 }
+// .useful__icon{
+//   position: relative;
+// }
 .useful__map-text {
   font-size: 18px;
   line-height: 21px;
@@ -80,4 +87,10 @@
   padding: 16px 14px 16px 5px;
   background-color: #ffe500;
   display: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+  white-space: nowrap;
+  padding: 0 8px;
+  transform: translateX(-10px);
+  opacity: 0;
+  pointer-events: none;
 }
