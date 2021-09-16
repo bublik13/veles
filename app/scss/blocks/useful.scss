@@ -123,7 +123,13 @@
     .useful__list {
         grid-template-columns: (1fr);
     }
-    .useful__img {
-        height: 268px;
+    .useful__item{
+        width: 288px;
     }
+    .useful__subtext {
+        min-height: 70px;
+    }
+    // .useful__img {
+    //     height: 268px;
+    // }
 }
