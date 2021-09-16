@@ -107,7 +107,6 @@
   .useful__list {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 35px;
-    padding: 16px;
   }
   .useful__title {
     font-size: 20px;
@@ -119,4 +118,12 @@
   .useful__img {
     height: 268px;
   }
+}
+@media (max-width: 479px) {
+    .useful__list {
+        grid-template-columns: (1fr);
+    }
+    .useful__img {
+        height: 268px;
+    }
 }
