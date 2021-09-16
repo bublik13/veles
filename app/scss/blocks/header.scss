@@ -86,9 +86,9 @@
   position: relative;
 }
 @media (max-width: 1200px) {
-  .header{
-    padding-bottom: 200px;
-  }
+  // .header{
+  //   padding-bottom: 200px;
+  // }
   .header:before {
     content: "";
     position: absolute;
@@ -135,3 +135,10 @@
     display: none;
   }
 }
+@media (max-width: 768px){
+  .header{
+    margin-bottom: 0;
+  }
+  
+}
+

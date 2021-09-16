@@ -76,9 +76,6 @@
   padding: 9px;
   display: block;
 }
-// .useful__icon{
-//   position: relative;
-// }
 .useful__map-text {
   font-size: 18px;
   line-height: 21px;
@@ -93,4 +90,29 @@
   transform: translateX(-10px);
   opacity: 0;
   pointer-events: none;
+}
+@media (max-width: 1200px){
+    .useful__list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 16px;
+    }
+}
+@media (max-width: 768px){
+    .useful__container{
+        padding-bottom: 60px;
+    }
+    .useful__list {
+        display: grid;
+        grid-template-columns: (1fr);
+        grid-gap: 35px;
+        padding: 16px;
+    }
+    .useful__title{
+        font-size: 20px;
+        line-height: 23px;
+    } 
+    .useful__subtext{
+        font-size: 16px;
+    }
 }
