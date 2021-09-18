@@ -1,6 +1,6 @@
 .advantage {
   background-color: #ffffff;
-  padding: 0 25px 50px 25px;
+  padding: 0 9px 50px 9px;
 }
 .advantage__title {
   font-size: 30px;
@@ -23,12 +23,6 @@
 .advantage__icon {
   background-color: #ffe500;
   padding: 14px 8px 13px 10px;
-  //   width: 51px;
-  //   height: 51px;
-  //   text-align: center;
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
 }
 .advantage__number {
   font-size: 20px;
@@ -80,9 +74,12 @@
   }
   .advantage__list {
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 35px;
+    grid-gap: 28px;
   }
   .advantage__background {
     display: none;
+  }
+  .advantage__subtext{
+    padding-right: 100px;
   }
 }
