@@ -1,0 +1,22 @@
+.bth-consultation{
+    background-color: #161616;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 21px 30px 17px 30px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #FFFFFF;
+}
+@media (max-width: 768px) {
+    .bth-consultation{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        padding: 21px 35px 17px 35px;
+    }
+}  
