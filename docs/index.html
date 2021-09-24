@@ -353,43 +353,44 @@
     </section>
     <footer class="footer">
       <div class="footer__top final">
-        <div class="final__container container">
-          <div class="final__inner">
-            <div class="final__inner-left final__list">
-              <div class="final__head">
+        <div class="footer__container container">
+          <div class="footer__inner">
+            <div class="footer__inner-left footer__list">
+              <div class="footer__head">
                 Аренда складов
               </div>
-              <div class="final__subhead">
+              <div class="footer__subhead">
                 Предлагаем в аренду крытые и открытые складские и производственные площадки. Склады комплекса оснащены погрузочно-разгрузочной техникой. Открытые складские площадки приспособлены и для хранения негабаритных грузов. Собственный ж.д. подъездной путь. Охраняемая территория, удобные подъездные пути для любых видов транспорта. На закрытой территории базы обеспечивается функционирование всех инженерных сетей.
               </div>
-              <button class="final__bth-consultation bth-consultation">
+              <button class="footer__bth-consultation bth-consultation">
                 ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
               </button>
             </div>
-            <img class="final__inner-pic" src="img/warehous-big.jpg" alt="warehouse" />
+            <img class="footer__inner-pic" src="img/warehous-big.jpg" alt="warehouse" />
           </div>
         </div>
       </div>
       <div class="footer__modal">
-        <div class="final__container"></div>
-          <form action="send.php" method="post" class="window__inputs">
-            <input type="text" name="fio" placeholder="Your email" class="window__input">
-            <div class="window__button">
-                <input type="text" name="email" placeholder="Your name" class="window__input-send">
-                <button class="window__send"> 
-                    send 
-                </button>
-            </div>
-          </form>
+        <div class="footer__container-modal container">
+          <div class="footer__title">
+            УЗНАТЬ О ЦЕНАХ, ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ 
+            ИЛИ ПЕРСОНАЛЬНОЕ ПРЕДЛОЖЕНИЕ
+          </div>
+          <form action="send.php" method="post" class="footer__inputs">
+            <input type="text" name="fio" placeholder="Имя" class="footer__input">
+            <input type="text" name="email" placeholder="Телефон" class="footer__input-send">
+            <button class="footer__send"> 
+              ОТПРАВИТЬ
+            </button>
+           </form>
         </div>
       </div>
-      <!-- <div class="header__top">
-        <div class="header__container container">
-          <a href="#" class="logo header__logo">
-            <img class="logo__img" src="img/logo.svg" alt="logo" />
+      <div class="footer__bottom">
+        <div class="footer__container-bottom container">
+          <a href="#" class="logo footer__logo">
+            <img class="footer__logo-img" src="img/logo.svg" alt="logo" />
           </a>
-          header__nav--active -->
-          <!-- <nav class="nav header__nav">
+          <nav class="nav footer__nav">
             <ul class="nav__list nav__list--column">
               <li class="nav__item">
                 <a href="#" class="nav__link">
@@ -418,25 +419,20 @@
               </li>
             </ul>
           </nav>
-          <button type="button" class="burger header__burger burger--active">
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-            <span class="burger__line"></span>
-          </button>
-          <div class="header__info">
-            <img class="header__info-icon" src="img/tel.svg" alt="phone" />
-            <a class="header__info-text" href="tel:+79276784514">
+          <div class="footer__info">
+            <img class="footer__info-icon" src="img/tel.svg" alt="phone" />
+            <a class="footer__info-text" href="tel:+79276784514">
               +7 (927) 678-45-14
               </a>
           </div>
-          <div class="header__info">
-            <img class="header__info-icon" src="img/map.svg" alt="map" />
-            <a class="header__info-text" href="#">
+          <div class="footer__info">
+            <img class="footer__info-icon" src="img/map.svg" alt="map" />
+            <a class="footer__info-text" href="#">
               г. Казань, Складская 20
             </a>
           </div>
         </div>
-      </div> --> 
+      </div>
     </footer>
   </body>
 </html>
