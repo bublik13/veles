@@ -5,6 +5,18 @@
     @@include('page/head-data.html')
   </head>
   <body class="body">
+    <img class="pp" src="img/desctop.jpg" alt="">
+    <style>
+      .pp{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        z-index: 999;
+        transform: translateX(-50%);
+        opacity: .6;
+        pointer-events: none;
+      }
+    </style>
     <header class="header header--column header--nav-open">
       <div class="header__top">
         <div class="header__container container">
@@ -98,18 +110,20 @@
     </header>
     <section class="useful">
       <div class="useful__container container">
-        <h3 class="useful__title">
+        <h2 class="useful__title title-h2">
           Чем мы можем быть полезны?
-        </h3>
+        </h2>
         <div class="useful__list">
           <div class="useful__item">
             <div class="useful__top">
-              <a class="useful__modal" href="#">
-                <img src="img/map-icon.svg" alt="map" class="useful__icon" />
-              </a>
-              <p class="useful__map-text">
-                Смотреть карту территорий
-              </p>
+              <div class="useful__label">
+                <div class="useful__label-img">
+                  <img src="img/map-icon.svg" alt="map" class="useful__icon" />
+                </div>
+                <p class="useful__label-text">
+                  Смотреть карту территорий
+                </p>
+              </div>
             </div>
             <img src="img/trees.jpg" alt="trees" class="useful__img" />
             <p class="useful__subtext">
@@ -187,156 +201,88 @@
         </div>
       </div>
     </section>
-    <section class="advantage">
+    <div class="advantage">
       <div class="advantage__container container">
-        <div class="advantage__title">
+        <h2 class="advantage__title title-h2">
           Наши преимущества
-        </div>
+        </h2>
         <div class="advantage__list">
           <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">
-                01
-              </p>
-            </div>
             <div class="advantage__text">
-              <div class="advantage__background">1</div>
-              <p class="advantage__subtext">
-                11,5 га площадь базы
-              </p>
+              11,5 га площадь базы
             </div>
           </div>
           <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">
-                02
-              </p>
-            </div>
             <div class="advantage__text">
-              <div class="advantage__background">2</div>
-              <p class="advantage__subtext">
-                2 своих тепловоза
-              </p>
+              2 своих тепловоза
             </div>
           </div>
           <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">03</p>
-            </div>
             <div class="advantage__text">
-              <div class="advantage__background">3</div>
-              <p class="advantage__subtext">
-                Повышенный путь для выгрузки инертных грузов
-              </p>
+              Повышенный путь для выгрузки инертных грузов
             </div>
           </div>
           <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">
-                04
-              </p>
-            </div>
             <div class="advantage__text">
-              <div class="advantage__background">4</div>
-              <p class="advantage__subtext">
-                8 км от центра Казани
-              </p>
+              8 км от центра Казани
             </div>
           </div>
           <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">
-                05
-              </p>
-            </div>
             <div class="advantage__text">
-              <div class="advantage__background">5</div>
-              <p class="advantage__subtext">
-                Возможность выгрузки хопров и сыпучих грузов
-              </p>
+              Возможность выгрузки хопров и сыпучих грузов
             </div>
           </div>
           <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">
-                06
-              </p>
-            </div>
             <div class="advantage__text">
-              <div class="advantage__background">6</div>
-              <p class="advantage__subtext">
-                Железнодорожные весы на 2 вагона
-              </p>
+              Железнодорожные весы на 2 вагона
             </div>
           </div>
           <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">
-                07
-              </p>
-            </div>
-          <div class="advantage__text">
-            <div class="advantage__background">
-              7
-            </div>
-            <p class="advantage__subtext">
+            <div class="advantage__text">
               Автомобильные весы 18 м на 80 тонн
-            </p>
-          </div>
-          </div>
-          <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">
-                08
-              </p>
-            </div>
-            <div class="advantage__text">
-              <div class="advantage__background">8</div>
-              <p class="advantage__subtext">
-                3 пандуса для выгрузки и загрузки крытых вагонов и фур
-              </p>
             </div>
           </div>
           <div class="advantage__item">
-            <div class="advantage__icon">
-              <p class="advantage__number">
-                09
-              </p>
-            </div>
             <div class="advantage__text">
-              <div class="advantage__background">
-                9
-              </div>
-              <p class="advantage__subtext">
-                Козловой кран
-              </p>
+              3 пандуса для выгрузки и загрузки крытых вагонов и фур
+            </div>
+          </div>
+          <div class="advantage__item">
+            <div class="advantage__text">
+              Козловой кран
             </div>
           </div>
         </div>
-        <div class="advantage__title">
+      </div>
+    </div>
+    </section>
+    <section class="map">
+      <div class="container">
+        <h2 class="map__title title-h2">
           Карта территорий
+        </h2>
+        <div class="map__content">
+          <img src="img/map.jpg" alt="map" class="map__img" width="1108" height="691">
         </div>
-        <div class="advantage__map">
-          <img src="img/map.jpg" alt="map" class="advantage__map-img">
+      </div>
+    </section>
+    <section class="rent">
+      <div class="rent__container container">
+        <div class="rent__right">
+          <h2 class="rent__title title-h2">
+            Аренда земли
+          </h2>
+          <p class="rent__desc">
+            Предлагаем в аренду открытые площадки для хранения грузов и техники. Площадь базы составляет 11,5га. 
+            Общая протяженность внутренних ж/д путей позволяет производить погрузо-разгрузочные работы до 60 вагонов в сутки единовременно. 
+            На базе работают два маневровых собственных тепловоза. Есть железнодорожные и автомобильные весы, козловой кран, повышенный путь, пандусы для выгрузки крытых вагонов и фур.
+          </p>
+          <button type="button" class="rent__bth bth-consultation">
+            ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
+          </button>
         </div>
-        <div class="advantage__rent">
-          <div class="advantage__right">
-            <div class="advantage__head">
-              Аренда земли
-            </div>
-            <div class="advantage__subhead">
-              Предлагаем в аренду открытые площадки для хранения грузов и техники. Площадь базы составляет 11,5га. 
-              Общая протяженность внутренних ж/д путей позволяет производить погрузо-разгрузочные работы до 60 вагонов в сутки единовременно. 
-              На базе работают два маневровых собственных тепловоза. Есть железнодорожные и автомобильные весы, козловой кран, повышенный путь, пандусы для выгрузки крытых вагонов и фур.
-            </div>
-            <button class="advantage__bth bth-consultation">
-              ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
-            </button>
-          </div>
-          <span class="advantage__shadow"></span>
-          <div class="advantage__left">
-            <img src="img/land-rent.jpg" alt="land-rent" class="advantage__rent-img">
-          </div>
+        <div class="rent__left">
+          <img src="img/land-rent.jpg" alt="land-rent" class="rent__img">
         </div>
       </div>
     </section>
