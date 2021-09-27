@@ -1,4 +1,6 @@
+.info__container{
 
+}
 .info__inner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -13,6 +15,9 @@
   color: #ffffff;
   margin-bottom: 51px;
 }
+.info__bth{
+  margin-top: 25px;
+}
 .info__inner-pic {
   position: absolute;
   width: 50%;
@@ -25,7 +30,7 @@
   display: flex;
   justify-content: flex-end;
   width: 50%;
-  padding-right: 35px;
+  padding: 70px 70px 0 0;
 }
 .info__arrow {
   background-color: transparent;
@@ -44,7 +49,7 @@
   font-size: 18px;
   line-height: 21px;
   color: #ffffff;
-  padding: 0 20px;
+  // padding: 0 20px;
 }
 @media (max-width: 768px) {
   .info__inner {
