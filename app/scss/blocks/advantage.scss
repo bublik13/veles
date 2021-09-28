@@ -8,8 +8,8 @@
 }
 .advantage__list {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 80px 120px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px 110px;
   padding: 0 59px 0 78px;
   counter-reset: list-1 list-2;
 }
@@ -55,47 +55,6 @@
   justify-content: flex-start;
   margin-left: 40px;
 }
-.advantage__map {
-  padding-bottom: 122px;
-  width: 100%;
-  display: block;
-}
-.rent{
-  background-color: $section-bg;
-
-}
-.rent__container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0 150px;
-  padding: 10px 15px 94px 35px;
-}
-.rent__right{
-  padding-top: 147px;
-}
-.rent__title {
-  text-transform: uppercase;
-  margin-bottom: 25px;
-}
-.rent__desc {
-  font-size: 15px;
-  line-height: 18px;
-  color: #161616;
-  font-weight: 400;
-  padding-bottom: 40px;
-}
-.rent__left{
-  margin-top: 60px;
-}
-.rent__img {
-  width: auto;
-  object-fit: cover;
-  height: 488px;
-  box-shadow: -66px -60px 0 0 #f1f2f5;
-}
-.rent__bth{
-  margin-top: 5px;
-}
 @media (max-width: 768px) {
   .advantage__title {
     font-size: 20px;
@@ -105,40 +64,6 @@
   .advantage__list {
     grid-template-columns: repeat(2, 1fr);
     padding: 0 9px 0 9px;
-  }
-  .advantage__map {
-    padding-bottom: 50px;
-  }
-  .advantage__map-img {
-    width: 100%;
-    object-fit: cover;
-  }
-  .advantage__rent {
-    grid-template-columns: repeat(1, 1fr);
-    padding: 0;
-  }
-  .advantage__right {
-    order: 1;
-    margin-bottom: 60px;
-  }
-  .advantage__head {
-    margin-top: 18px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 21px;
-  }
-  .advantage__subhead {
-    text-align: center;
-    padding: 0 5px 0 5px;
-  }
-  .advantage__left {
-    order: -1;
-  }
-  .advantage__rent-img {
-    width: 100%;
-    object-fit: cover;
-    position: static;
-    height: auto;
   }
 }
 @media (max-width: 479px) {
@@ -151,10 +76,7 @@
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 28px;
   }
-  .advantage__background {
-    display: none;
-  }
-  .advantage__subhead {
+  .advantage__text {
     height: 266px;
   }
 }

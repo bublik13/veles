@@ -4,8 +4,8 @@
     <!-- подключаем meta, title, css -->
     @@include('page/head-data.html')
   </head>
-  <body class="body">
-    <img class="pp" src="img/desctop.jpg" alt="">
+  <section class="body">
+    <img class="pp" src="img/mobile.jpg" alt="">
     <style>
       .pp{
         position: absolute;
@@ -80,7 +80,7 @@
                 ВЫГРУЗКА ВАГОНОВ, АРЕНДА ЗЕМЛИ, КРАНОВЫХ ПЛОЩАДОК, ОТВЕСТВЕННОЕ
                 ХРАНЕНИЕ
               </h2>
-              <button class="info__bth btn">
+              <button class="info__btn btn">
                 ЗАКАЗАТЬ
               </button>
             </div>
@@ -205,7 +205,7 @@
         </div>
       </div>
     </section>
-    <div class="advantage">
+    <section class="advantage">
       <div class="advantage__container container">
         <h2 class="advantage__title title-h2">
           Наши преимущества
@@ -258,7 +258,6 @@
           </li>
         </ul>
       </div>
-    </div>
     </section>
     <section class="map">
       <div class="container">
@@ -290,42 +289,41 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
-      <div class="footer__top final">
-        <div class="footer__container container">
-          <div class="footer__inner">
-            <div class="footer__inner-left footer__list">
-              <div class="footer__head">
-                Аренда складов
-              </div>
-              <div class="footer__subhead">
-                Предлагаем в аренду крытые и открытые складские и производственные площадки. Склады комплекса оснащены погрузочно-разгрузочной техникой. Открытые складские площадки приспособлены и для хранения негабаритных грузов. Собственный ж.д. подъездной путь. Охраняемая территория, удобные подъездные пути для любых видов транспорта. На закрытой территории базы обеспечивается функционирование всех инженерных сетей.
-              </div>
-              <button class="footer__bth-consultation bth-consultation">
-                ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
-              </button>
-            </div>
-            <img class="footer__inner-pic" src="img/warehous-big.jpg" alt="warehouse" />
-          </div>
-        </div>
-      </div>
-      <div class="footer__modal">
-        <div class="footer__container-modal container">
-          <div class="footer__title">
-            УЗНАТЬ О ЦЕНАХ, ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ 
-            ИЛИ ПЕРСОНАЛЬНОЕ ПРЕДЛОЖЕНИЕ
-          </div>
-          <form action="send.php" method="post" class="footer__inputs">
-            <input type="text" name="fio" placeholder="Имя" class="footer__input">
-            <input type="text" name="email" placeholder="Телефон" class="footer__input-send">
-            <button class="footer__send"> 
-              ОТПРАВИТЬ
+    <section class="storage">
+      <div class="storage__container container">
+        <div class="storage__inner">
+          <div class="storage__inner-left storage__list">
+            <h2 class="storage__title title-h2">
+              Аренда складов
+            </h2>
+            <p class="storage__desc">
+              Предлагаем в аренду крытые и открытые складские и производственные площадки. Склады комплекса оснащены погрузочно-разгрузочной техникой. Открытые складские площадки приспособлены и для хранения негабаритных грузов. Собственный ж.д. подъездной путь. Охраняемая территория, удобные подъездные пути для любых видов транспорта. На закрытой территории базы обеспечивается функционирование всех инженерных сетей.
+            </p>
+            <button class="storage__bth-consultation bth-consultation">
+              ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ
             </button>
-           </form>
+          </div>
+          <img class="storage__inner-pic" src="img/warehous-big.jpg" alt="warehouse" />
         </div>
       </div>
-      <div class="footer__bottom">
-        <div class="footer__container-bottom container">
+    </section>
+    <section class="form">
+      <div class="form__container container">
+        <div class="form__title">
+          УЗНАТЬ О ЦЕНАХ, ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ 
+          ИЛИ ПЕРСОНАЛЬНОЕ ПРЕДЛОЖЕНИЕ
+        </div>
+        <form action="send.php" method="post" class="form__inputs">
+          <input type="text" name="fio" placeholder="Имя" class="form__input">
+          <input type="text" name="email" placeholder="Телефон" class="form__input-send">
+          <button class="form__send"> 
+            ОТПРАВИТЬ
+          </button>
+         </form>
+      </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container container">
           <a href="#" class="logo footer__logo">
             <img class="footer__logo-img" src="img/logo.svg" alt="logo" />
           </a>
@@ -371,7 +369,6 @@
             </a>
           </div>
         </div>
-      </div>
     </footer>
   </body>
 </html>
