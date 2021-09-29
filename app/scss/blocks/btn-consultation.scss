@@ -1,4 +1,4 @@
-.bth-consultation{
+.btn-consultation{
     background-color: #161616;
     font-size: 12px;
     line-height: 14px;
@@ -12,11 +12,8 @@
     vertical-align: top;
     border: 1px solid #FFFFFF;
 }
-@media (max-width: 768px) {
-    .bth-consultation{
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 60px;
-        padding: 21px 35px 17px 35px;
+@media (max-width: 320px) {
+    .btn-consultation{
+        padding: 21px 35px 20px;
     }
 }  

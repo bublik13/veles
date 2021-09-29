@@ -89,3 +89,32 @@
     padding: 18px 104px;
   }
 }
+@media (max-width: 768px) {
+  .form__container {
+    padding: 0 15px;
+  }
+  .form__send {
+    margin: 0;
+  }
+}
+@media (max-width: 320px) {
+  .form {
+    padding-bottom: 54px;
+  }
+  .form__container {
+    padding: 0 15px;
+  }
+  .form__inputs {
+    margin-top: 25px;
+  }
+  .form__input {
+    margin-bottom: 16px;
+  }
+  .form__input-send {
+    margin-bottom: 27px;
+  }
+  .form__send {
+    margin: 0;
+    padding: 25px 104px 12px;
+  }
+}

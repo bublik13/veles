@@ -12,3 +12,18 @@
   height: auto;
   margin: 0 auto;
 }
+@media (max-width: 768px) {
+  .map {
+    padding-bottom: 37px;
+  }
+}
+@media (max-width: 320px) {
+  .map {
+    padding-bottom: 8px;
+  }
+  .map__title {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 52px;
+  }
+}

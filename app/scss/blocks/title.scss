@@ -5,3 +5,15 @@
   color: #000000;
   font-family: $basic-family;
 }
+@media (max-width: 768px) {
+  .title-h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}
+@media (max-width: 320px) {
+  .title-h2 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
