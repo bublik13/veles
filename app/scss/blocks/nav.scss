@@ -12,6 +12,12 @@
   letter-spacing: 0.1em;
   color: #ffffff;
 }
+@media (max-width: 1024px) {
+  .nav__link {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+}
 @media (max-width: 768px) {
   .nav__list--column {
     display: flex;
@@ -26,7 +32,7 @@
     padding-bottom: 20px;
   }
 }
-@media (max-width: 320px){
+@media (max-width: 320px) {
   .nav__list--column .nav__link {
     padding-top: 15px;
     padding-bottom: 15px;

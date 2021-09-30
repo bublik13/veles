@@ -33,6 +33,30 @@
 .rent__btn {
   margin-top: 5px;
 }
+@media (max-width: 1024px) {
+  .rent__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rent__right {
+    order: 1;
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .rent__desc {
+    text-align: center;
+  }
+  .rent__left {
+    order: -1;
+  }
+  .rent__img {
+    width: 100%;
+    object-fit: cover;
+    height: 488px;
+    box-shadow: none;
+  }
+}
 @media (max-width: 768px) {
   .rent__container {
     grid-template-columns: repeat(1, 1fr);
