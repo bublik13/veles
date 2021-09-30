@@ -41,7 +41,7 @@
     display: none;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 970px) {
   .footer__container {
     display: flex;
     align-items: center;
@@ -62,12 +62,16 @@
 }
 @media (max-width: 620px) {
   .footer {
-    padding: 0;
+    padding: 41px 0 41 0;
+  }
+}
+@media (max-width: 479px) {
+  .footer {
+    padding: 41px 0 20px 0;
   }
 }
 @media (max-width: 320px) {
   .footer {
-    padding-top: 41px;
-    padding-bottom: 20px;
+    padding: 41px 0 20px 0;
   }
 }
