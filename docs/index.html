@@ -16,7 +16,7 @@
 </svg> -->
   </head>
   <section class="body">
-    <img class="pp" src="img/mobile.jpg" alt="">
+    <!-- <img class="pp" src="img/mobile.jpg" alt=""> -->
     <style>
       .pp{
         position: absolute;
@@ -32,10 +32,10 @@
       <div class="header__top">
         <div class="header__container container">
           <a href="#" class="logo header__logo">
-            <img class="logo__img" src="img/logo.svg" alt="logo" />
+            <img class="logo__img" src="img/logo.svg" alt="logo" width="91" height="36"/>
           </a>
           <!-- header__nav--active -->
-          <nav class="nav header__nav">
+          <nav class="nav header__nav header__nav--active">
             <ul class="nav__list nav__list--column">
               <li class="nav__item">
                 <a href="#" class="nav__link">
@@ -63,20 +63,21 @@
                 </a>
               </li>
             </ul>
-          </nav>
-          <button type="button" class="burger header__burger burger--active">
+          </nav> 
+          <!-- burger--active -->
+          <button type="button" aria-label="close" class="burger header__burger ">
             <span class="burger__line"></span>
             <span class="burger__line"></span>
             <span class="burger__line"></span>
           </button>
           <div class="header__info">
-            <img class="header__info-icon" src="img/tel.svg" alt="phone" />
+            <img class="header__info-icon" src="img/tel.svg" alt="phone" width="10" height="10"/>
             <a class="header__info-text" href="tel:+79276784514">
               +7 (927) 678-45-14
               </a>
           </div>
           <div class="header__info">
-            <img class="header__info-icon" src="img/map.svg" alt="map" />
+            <img class="header__info-icon" src="img/map.svg" alt="map" width="8" height="12"/>
             <a class="header__info-text" href="#">
               г. Казань, Складская 20
             </a>
@@ -95,14 +96,14 @@
                 ЗАКАЗАТЬ
               </button>
             </div>
-            <img class="info__inner-pic" src="img/carusel.jpg" alt="balba" />
+            <img class="info__inner-pic" src="img/carusel.jpg" alt="balba" width="972" height="506"/>
           </div>
           <div class="info__switch">
             <button type="button" class="info__arrow">
               <img
                 src="img/arrow-left.svg"
                 alt="arrow-left"
-                class="info__arrow-button info__arrow-button--disabled"
+                class="info__arrow-button info__arrow-button--disabled" width="24" height="7"
               />
             </button>
             <div class="info__list">
@@ -112,7 +113,7 @@
               <img
                 src="img/arrow-right.svg"
                 alt="arrow-right"
-                class="info__arrow-button"
+                class="info__arrow-button" width="24" height="7"
               />
             </button>
           </div>
@@ -125,36 +126,36 @@
           Чем мы можем быть полезны?
         </h2>
         <div class="useful__list">
-          <a href="#"class="useful__item">
+          <a href="#" class="useful__item">
             <div class="useful__top">
               <div class="useful__label">
                 <div class="useful__label-img">
-                  <img src="img/map-icon.svg" alt="map" class="useful__icon" />
+                  <img src="img/map-icon.svg" alt="map" class="useful__icon" width="36" height="36"/>
                 </div>
                 <p class="useful__label-text">
                   Смотреть карту территорий
                 </p>
               </div>
             </div>
-            <img src="img/trees.jpg" alt="trees" class="useful__img" />
+            <img src="img/trees.jpg" alt="trees" class="useful__img" width="370" height="345" />
             <p class="useful__subtext">
               КРАНОВАЯ ПЛОЩАДКА
             </p>
           </a>
           <a href="#" class="useful__item">
-            <img src="img/plant.jpg" alt="plant" class="useful__img" />
+            <img src="img/plant.jpg" alt="plant" class="useful__img" width="370" height="345"/>
             <p class="useful__subtext">
               ТОВАРЫ СЕЛЬСКОГО ХОЗЯЙСТВА
             </p>
           </a>
           <a href="#" class="useful__item">
-            <img src="img/bag.jpg" alt="bag" class="useful__img" />
+            <img src="img/bag.jpg" alt="bag" class="useful__img" width="370" height="345"/>
             <p class="useful__subtext">
               ФАСОВКА от 300 гр до 1 ТОННЫ
             </p>
           </a>
           <a href="#" class="useful__item">
-            <img src="img/granite.jpg" alt="granite" class="useful__img" />
+            <img src="img/granite.jpg" alt="granite" class="useful__img" width="370" height="345"/>
             <p class="useful__subtext">
               ГРАНИТНЫЙ ЩЕБЕНЬ
             </p>
@@ -163,14 +164,14 @@
             <div class="useful__top">
               <div class="useful__label">
                 <div class="useful__label-img">
-                  <img src="img/map-icon.svg" alt="map" class="useful__icon" />
+                  <img src="img/map-icon.svg" alt="map" class="useful__icon" width="36" height="36"/>
                 </div>
                 <p class="useful__label-text">
                   Смотреть карту территорий
                 </p>
               </div>
             </div>
-            <img src="img/land.jpg" alt="land" class="useful__img" />
+            <img src="img/land.jpg" alt="land" class="useful__img" width="370" height="345"/>
             <p class="useful__subtext">
               АРЕНДА ЗЕМЛИ
             </p>
@@ -179,35 +180,32 @@
             <div class="useful__top">
               <div class="useful__label">
                 <div class="useful__label-img">
-                  <img src="img/map-icon.svg" alt="map" class="useful__icon" />
+                  <img src="img/map-icon.svg" alt="map" class="useful__icon" width="36" height="36"/>
                 </div>
                 <p class="useful__label-text">
                   Смотреть карту территорий
                 </p>
               </div>
             </div>
-            <img src="img/warehouse.jpg" alt="warehouse" class="useful__img" />
+            <img src="img/warehouse.jpg" alt="warehouse" class="useful__img" width="370" height="345"/>
             <p class="useful__subtext">
               АРЕНДА СКЛАДОВ
             </p>
           </a>
           <a href="#" class="useful__item">
-            <img src="img/room.jpg" alt="room" class="useful__img" />
+            <img src="img/room.jpg" alt="room" class="useful__img" width="370" height="345"/>
             <p class="useful__subtext">
               ВЫГРУЗКА ВАГОНОВ И ОТВЕТСТВЕННОЕ ХРАНЕНИЕ
             </p>
           </a>
-          <a href="#"class="useful__item">
-            <img src="img/scales.jpg" alt="scales" class="useful__img" />
+          <a href="#" class="useful__item">
+            <img src="img/scales.jpg" alt="scales" class="useful__img" width="370" height="345"/>
             <p class="useful__subtext">
               АВТОМОБИЛЬНЫЕ ВЕСЫ 18м, 80тн
             </p>
           </a>
           <a href="#" class="useful__item">
-            <img
-              src="img/jelly road scales.jpg"
-              alt="jelly road scales"
-              class="useful__img"
+            <img src="img/rails.jpg" alt="rails"class="useful__img" width="370" height="345"
             />
             <p class="useful__subtext">
               ЖЕЛЕЗНОДОРОЖНЫЕ ВЕСЫ НА 2 ВАГОНА
@@ -276,7 +274,7 @@
           Карта территорий
         </h2>
         <div class="map__content">
-          <img src="img/map.jpg" alt="map" class="map__img" width="1108" height="691">
+          <img src="img/map.jpg" alt="map" class="map__img" width="1108" height="691"/>
         </div>
       </div>
     </section>
@@ -296,7 +294,7 @@
           </button>
         </div>
         <div class="rent__left">
-          <img src="img/land-rent.jpg" alt="land-rent" class="rent__img">
+          <img src="img/land-rent.jpg" alt="land-rent" class="rent__img" width="570" height="488"/>
         </div>
       </div>
     </section>
@@ -314,16 +312,16 @@
             </button>
           </div>
           <div class="storage__left">
-            <img class="storage__left-pic" src="img/warehous-big.jpg" alt="warehouse" />
+            <img class="storage__left-pic" src="img/warehous-big.jpg" alt="warehouse" width="959" height="570"/>
           </div>
       </div>
     </section>
     <section class="form">
       <div class="form__container container">
-        <div class="form__title">
+        <h2 class="form__title">
           УЗНАТЬ О ЦЕНАХ, ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ 
           ИЛИ ПЕРСОНАЛЬНОЕ ПРЕДЛОЖЕНИЕ
-        </div>
+        </h2>
         <form action="send.php" method="post" class="form__inputs">
           <input type="text" name="fio" placeholder="Имя" class="form__input">
           <input type="text" name="email" placeholder="Телефон" class="form__input-send">
@@ -336,7 +334,7 @@
     <footer class="footer">
         <div class="footer__container container">
           <a href="#" class="logo footer__logo">
-            <img class="footer__logo-img" src="img/logo.svg" alt="logo" />
+            <img class="footer__logo-img" src="img/logo.svg" alt="logo" width="91" height="36"/>
           </a>
           <nav class="nav footer__nav">
             <ul class="nav__list nav__list--column">
@@ -368,13 +366,13 @@
             </ul>
           </nav>
           <div class="footer__info">
-            <img class="footer__info-icon" src="img/tel.svg" alt="phone" />
+            <img class="footer__info-icon" src="img/tel.svg" alt="phone" width="10" height="10"/>
             <a class="footer__info-text" href="tel:+79276784514">
               +7 (927) 678-45-14
               </a>
           </div>
           <div class="footer__info">
-            <img class="footer__info-icon" src="img/map.svg" alt="map" />
+            <img class="footer__info-icon" src="img/map.svg" alt="map" width="8" height="12"/>
             <a class="footer__info-text" href="#">
               г. Казань, Складская 20
             </a>
