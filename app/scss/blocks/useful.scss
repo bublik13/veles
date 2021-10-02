@@ -41,7 +41,7 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #161616;
-  min-height: 85px;
+  min-height: 108px;
   display: flex;
   align-items: center;
   padding: 10px 30px;
@@ -50,7 +50,7 @@
   display: block;
   width: 100%;
   object-fit: cover;
-  height: 380px;
+  height: 351px;
 }
 .useful__label {
   display: flex;
@@ -95,10 +95,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 35px;
   }
-  .useful__title {
-    font-size: 20px;
-    line-height: 23px;
-  }
   .useful__subtext {
     font-size: 16px;
   }
@@ -129,7 +125,7 @@
   }
   .useful__title {
     text-align: center;
-    margin-bottom: 17px;
+    margin-bottom: 43px;
   }
   .useful__img {
     height: 270px;

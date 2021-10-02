@@ -17,7 +17,7 @@
   letter-spacing: 0.13em;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 205px;
+  padding-top: 211px;
   padding-bottom: 30px;
 }
 .storage__desc {
@@ -137,21 +137,21 @@
 @media (max-width: 320px) {
   .storage {
     margin-top: 31px;
-    padding-bottom: 35px;
+    padding-bottom: 34px;
     margin-bottom: 0;
   }
   .storage__container {
     padding: 0 13px;
   }
   .storage__left-pic {
-    height: 250px;
-    padding: 0px 24px 0 6px;
-  }
+    height: 256px;
+    padding: 0px 16px 0;
+}
   .storage__title {
     margin-top: 110px;
   }
   .storage__desc {
-    padding: 0 20px 50px 15px;
+    padding: 0 20px 52px 15px;
     margin-right: 0;
   }
 }

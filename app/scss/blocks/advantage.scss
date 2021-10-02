@@ -1,6 +1,6 @@
 .advantage {
   background-color: #ffffff;
-  padding: 90px 0 140px 0;
+  padding: 107px 0 140px;
 }
 .advantage__title {
   text-align: center;
@@ -9,7 +9,7 @@
 .advantage__list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 80px 110px;
+  grid-gap: 77px 118px;
   padding: 0 59px 0 78px;
   counter-reset: list-1 list-2;
 }
