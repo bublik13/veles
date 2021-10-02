@@ -79,8 +79,11 @@
 }
 @media (max-width: 320px) {
   .info__btn {
-    margin-top: 12px;
-    margin-bottom: 28px;
+    margin-top: 7px;
+    margin-bottom: 45px;
     padding-right: 30px;
+  }
+  .info__arrow {
+    padding: 0;
   }
 }
