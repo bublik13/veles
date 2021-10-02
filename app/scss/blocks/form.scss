@@ -30,15 +30,6 @@
   padding: 18px 35px 18px 20px;
   border: none;
 }
-.form__input-send {
-  background-color: #eff0f1;
-  font-size: 16px;
-  line-height: 19px;
-  color: #161616;
-  opacity: 0.5;
-  padding: 18px 35px 18px 20px;
-  border: none;
-}
 .form__send {
   background-color: #161616;
   font-size: 12px;
@@ -56,15 +47,32 @@
   position: relative;
   z-index: 0;
 }
+@media (max-width: 1170px) {
+  .form__inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .form__input {
+    margin-bottom: 14px;
+  }
+  .form__send {
+    padding-left: 82px;
+    padding-right: 81px;
+  }
+}
 @media (max-width: 768px) {
   .form {
     padding: 60px 0;
+  }
+  .form__container {
+    padding: 0 15px;
   }
   .form__title {
     font-size: 18px;
     line-height: 21px;
     padding: 0;
-    margin-bottom: 20px;
+    margin-bottom: 33px;
   }
   .form__inputs {
     display: flex;
@@ -75,17 +83,11 @@
     width: 288px;
     margin-bottom: 20px;
     padding: 15px 0 16px 17px;
+    margin-bottom: 22px;
   }
   .form__send {
     width: 288px;
     padding: 18px 104px;
-  }
-}
-@media (max-width: 768px) {
-  .form__container {
-    padding: 0 15px;
-  }
-  .form__send {
     margin: 0;
   }
 }
@@ -100,7 +102,7 @@
     margin-top: 25px;
   }
   .form__input {
-    margin-bottom: 16px;
+    margin-bottom: 22px;
   }
   .form__send {
     margin: 0;
