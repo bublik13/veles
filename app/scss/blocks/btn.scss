@@ -19,8 +19,9 @@
     line-height: 16px;
   }
 }
-@media (max-width: 320px) {
-  .btn  {
-    padding-right: 30px;
+@media (max-width: 576px) {
+  .btn {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }

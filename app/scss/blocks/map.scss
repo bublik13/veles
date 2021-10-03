@@ -17,11 +17,11 @@
     padding-bottom: 37px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .map {
     padding-bottom: 8px;
   }
-  .map__content{
+  .map__content {
     margin: 0 -15px;
   }
   .map__title {

@@ -91,7 +91,7 @@
     margin-bottom: 20px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 576px) {
   .rent__container {
     padding: 0 15px 0 15px;
   }
@@ -103,7 +103,7 @@
     margin-top: 10px;
     margin-bottom: 17px;
   }
-  .rent__left{
+  .rent__left {
     margin-top: 40px;
   }
   .rent__img {
@@ -111,5 +111,5 @@
   }
   .rent__btn {
     margin-top: 39px;
-}
+  }
 }
