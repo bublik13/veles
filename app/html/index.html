@@ -4,7 +4,8 @@
     <!-- подключаем meta, title, css -->
     @@include('page/head-data.html')
   </head>
-  <section class="body body--lock">
+   <!-- add class when toggle burger body--lock -->
+  <section class="body js-body">
     <!-- <img class="pp" src="img/mobile.jpg" alt="">
     <style>
       .pp{
@@ -23,7 +24,8 @@
           <a href="#" class="logo header__logo">
             <img class="logo__img" src="img/logo.svg" alt="logo" width="91" height="36"/>
           </a>
-          <nav class="nav header__nav header__nav--active">
+          <!-- add class when toggle burger header__nav--active -->
+          <nav class="nav header__nav js-nav">
             <ul class="nav__list nav__list--column">
               <li class="nav__item">
                 <a href="#" class="nav__link">
@@ -53,7 +55,7 @@
             </ul>
           </nav> 
           <!-- burger--active -->
-          <button type="button" aria-label="close" class="burger header__burger">
+          <button type="button" aria-label="close" class="burger header__burger js-burger">
             <span class="burger__line"></span>
             <span class="burger__line"></span>
             <span class="burger__line"></span>
@@ -367,5 +369,17 @@
           </div>
         </div>
     </footer>
+
+    <script>
+      const body = document.querySelector('.js-body');
+      const nav = document.querySelector('.js-nav');
+      const burger = document.querySelector('.js-burger');
+
+      burger.addEventListener('click', ()=>{  
+        burger.classList.toggle('burger--active');
+        nav.classList.toggle('header__nav--active');
+        body.classList.toggle('body--lock');
+      });
+    </script>
   </body>
 </html>
